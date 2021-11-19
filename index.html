@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fresh Juice</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Oswald&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="wrapper">
+			<header class="header">
+				<div class="header-icons">
+					<img src="img/search.png" alt="search" width="30" height="30">
+					<img src="img/cart.png" alt="cart" width="30" height="30" class="header-icons__cart">
+				</div>
+				<div class="header-nav">
+					<ul class="header-nav__section">
+						<li>Home</li>
+						<li>About</li>
+						<li>Contact</li>
+					</ul>
+				</div>
+				<div class="header-logo">
+					<div class="header-logo__picture">
+						<img src="img/logo.png" alt="logo" width="150" height="100">
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<div class="main-left">
+					<div class="main-left__picture">
+					<div><img src="img/peach_bottle.png" alt="peach_bottle" width="400" height="600"></div>
+					</div>
+				</div>
+				<div class="main-right">
+					<h1 class="main-right__title">Peach</h1>
+					<p class="main-right__description">Just one medium peach has up to 13.2% of the vitamin C you need each day. This nutrient helps your body heal wounds and keeps your immune system going strong</p>
+					<h2 class="main-right__promo">A day without juice is like a day without sunshine</h2>
+					<button class="main-right__button">Order now</button>
+				</div>
+			</main>
+			<footer class="footer-icons">
+				<img src="img/instagram.png" alt="instagram" width="40" height="40">
+				<img src="img/facebook.png" alt="facebook" width="40" height="40">
+				<img src="img/twitter.png" alt="twitter" width="40" height="40">
+				<img src="img/whatsapp.png" alt="whatsapp" width="40" height="40">
+			</footer>
+		</div>
+	</div>
+		
+	<div class="inner-container">
+		<div class="wrapper">
+			<header class="inner-header">
+				<div class="inner-header-icons">
+					<img src="img/search.png" alt="search" width="30" height="30">
+					<img src="img/cart.png" alt="cart" width="30" height="30" class="inner-icons__cart">
+				</div>
+				<div class="inner-header-logo">
+					<img src="img/logo.png" alt="logo" width="150" height="100">
+				</div>
+			</header>
+			<main class="inner-main">
+				<div class="inner-main-titles">
+					<h2>Apricot</h2>
+					<h2>Cherry</h2>
+				</div>			
+				<div class="inner-main-picture">
+					<img src="img/apricot_cherry.png" alt="apricot_cherry">
+				</div>
+				<div class="inner-main-descriptions">
+					<p>Rich in vitamin A, beta-carotene, and other carotenoids, apricots are excellent for promoting eye health. Lutein helps to support retina and lens health, while carotenoids and vitamin E support overall vision</p>
+					<p>Cherries are a potent source of antioxidants and anti-inflammatory compounds. These cellular body guards slow down aging and ward off chronic illnesses — including heart disease, cancer, Alzheimer’s, diabetes, and obesity</p>
+				</div>
+			</main>
+		</div>	
+	</div>
+
+	<div class="discount-container">
+		<div class="wrapper">
+			<header class="inner-header">
+				<div class="inner-header-icons">
+					<img src="img/search.png" alt="search" width="30" height="30">
+					<img src="img/cart.png" alt="cart" width="30" height="30" class="discount-icons__cart">
+				</div>
+				<div class="inner-header-logo">
+					<img src="img/logo.png" alt="logo" width="150" height="100">
+				</div>
+			</header>
+			<main class="discount-main">
+				<h2 class="discount-main-title">Healthy sip</h2>
+				<div class="discount-main-section">
+					<div class="discount-main-section-title">
+						<h3 class="discount-main-section-title__el1">50%</h3>
+						<p class="discount-main-section-title__el2">off</p>
+					</div>
+					<div class="discount-main-section__picture">
+						<img src="img/discount_bottles.png" alt="discount bottles" width="550" height="500">
+					</div>
+					<div class="discount-main-section-title">
+						<h3 class="discount-main-section-title__el3">On all items</h3>
+					</div>
+				</div>
+			</main>
+			<footer class="discount-footer">
+				<p class="discount-footer__title">For a better mood, go & have a fruit juice</p>
+			</footer>
+		</div>
+	</div>
+
+
+	<div class="form-container">
+		<div class="wrapper form-wrapper">
+			<div class="form-image">
+				<img src="img/juice_bottles.png" alt="juice bottles" width="550" height="400">
+			</div>
+			<form class="order-form" onsubmit="alert('Your order has been sent!'); return false">
+				<div class="order-form-section">
+					<label for="name" class="order-form-section__left-part">Your name:</label>
+					<input type="text" name="name" id="name" class="order-form-section__right-part order-form-section__name" placeholder="John" required>
+				</div>
+				<div class="order-form-section">
+					<label for="email" class="order-form-section__left-part">Email adress:</label>
+					<input type="email" name="email" id="email" class="order-form-section__right-part" placeholder="example@gmail.com" required>
+				</div>
+				<div class="order-form-section">
+					<label for="tel" class="order-form-section__left-part">Phone number:</label>
+					<input type="tel" name="tel" id="tel" class="order-form-section__right-part" placeholder="+11234567890" required>
+				</div>
+				<div class="order-form-section">
+					<span class="order-form-section__left-part">Choose flavour:</span>
+					<select name="flavour" id="flavour" class="order-form-section__right-part">
+							<option value="apple">Apple</option>
+							<option value="apricot">Apricot</option>
+							<option value="blueberry">Blueberry</option>
+							<option value="cherry">Cherry</option>
+							<option value="orange">Orange</option>
+							<option value="peach">Peach</option>
+					</select>
+				</div>
+				<div class="order-form-section">
+					<button class="order-form-button submit-button" type="submit">Order</button>
+					<button class="order-form-button clear-button" type="reset">Clear</button>
+				</div>
+			</form>
+			<h2 class="order-form-title">Fresh juice is what you need</h2>
+		</div>
+	</div>
+
+	<script src="program.js"></script>
+</body>
+</html>
